@@ -1,0 +1,154 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet"> 
+  </head>
+  <main id="main">
+    <body>
+      <div class="container1">
+        <header class="item1">
+          <title id="title"> Thrall of the Horde</title>
+            <h1> <b> Warchief Thrall </b></h1>
+            <h2> The orc who unified the Horde</h2>    
+        </header>
+        <div class="item2" id="img-div">
+            <img id="image" src="https://www.ecured.cu/images/thumb/e/e2/Thrall.jpg/800px-Thrall.jpg" alt="Thrall holding Doomhammer">
+        </div>
+         <div id= img-description>
+          <p> Thrall wielding Doomhammer.</p>
+        </div> 
+      </div>
+      <div class="container2">
+        <div class="right-column">  </div>
+        <div class="contexto">
+          <ul>
+            <li><strong>Early life - </strong></li> Go'el is the son of Durotan, chieftain of the Frostwolf clan, and Draka, born a year after the Frostwolves made Alterac Mountains their home. Not long after Go'el's birth, Durotan, Draka and Go'el went to a meeting with Orgrim Doomhammer in Loch Modan. In this meeting, Durotan warned the Orcs about Gul'dan and the Shadow Council clan, who would use the Orcs as mere tools for power. After this meeting, Durotan and Draka were escorted out by Doomhammer's royal guards, who in reality were loyal to Gul'dan. Durotan and Draka were murdered in cold blood, with Go'el left to die helplessly in the woods.
+              
+            <li><strong>The Internment Camps -</strong></li>
+             Thrall was raised as a champion, being smart, fast, and even bigger than normal Orcs. However, even the money he brought to Blackmoore was not enough to stop the Human Commander from physically abusing the Orc constantly. The beatings would start taking its toll on the Orc, who refused to finish fights in Blackmoore Arena, which would lead to even more beatings. 
+                
+             
+          </ul>
+        </div>
+        <div class="left-column"> </div>
+      
+
+
+
+        
+       
+      </div>
+        
+        
+      
+
+
+    </body>
+
+    <style>
+      #main {
+        font-family: 'Crimson Text', serif;
+      }
+     .item1 {
+        background-color: hsl(110, 34%, 67%);
+        text-align: center;
+        font-size: 25px;
+        padding: 10px 10px 10px 10px;
+        grid-area: header;
+      }
+      .item2 {
+        grid-area: img;
+        background: hsl(108, 24%, 75%);
+        height: 400px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+      }
+      #img-description {
+        font-size: 14px;
+        display: flex;
+        background: hsl(108, 24%, 75%);
+        justify-content: center;
+        height: auto;
+        width: auto;
+      }
+    
+     
+      
+      .container1 {
+        background: hsl(108, 24%, 75%);
+        font-size: 20px;
+        min-height: 300px;
+        height: auto;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas:
+        "header"
+        "img";
+        
+      }
+      .container2 {
+        background: hsl(110, 34%, 67%);
+        font-size: 20px;
+        min-height: 300px;
+        height: auto;
+        display: grid;
+        grid-template-columns: 500px 1fr 500px;
+        grid-template-rows: 1fr 200px;
+        grid-template-areas:
+        "empty1 contexto empty2"
+        "empty1 contexto empty2"
+        "footer footer footer";
+      }
+      .right-column {
+        
+        grid-area: empty1;
+      }
+      .left-column {
+        
+        grid-area: empty2;
+      }
+      .contexto {
+        justify-content: center;
+      
+      }
+      
+
+
+
+      
+        
+      
+     
+  
+
+
+      #content {
+        font-size: 18px;
+      }
+      
+      </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+</html>
